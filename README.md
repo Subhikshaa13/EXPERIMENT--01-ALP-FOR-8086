@@ -127,7 +127,50 @@ hlt
 ## Output  
 
 ![image](https://github.com/Subhikshaa13/EXPERIMENT--01-ALP-FOR-8086/assets/118787344/91c116bf-cce5-4450-93bd-24d448812472)
-
+### Programs for logical operations
+### AND
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+AND AL,BL;
+HLT
+ret
+```
+### OUTPUT:
+![image](https://github.com/Subhikshaa13/EXPERIMENT--01-ALP-FOR-8086/assets/118787344/b3cfa432-30dd-438b-a879-d17b977ebc43)
+### OR:
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+OR AL,BL;
+HLT
+ret
+```
+### OUTPUT:
+![image](https://github.com/Subhikshaa13/EXPERIMENT--01-ALP-FOR-8086/assets/118787344/32001c5c-eb5e-47d4-b40e-bd32199d46df)
+### NOT:
+```
+org 100h
+mov AL,66h;
+NOT AL;
+HLT;
+ret
+```
+### OUTPUT:
+![image](https://github.com/Subhikshaa13/EXPERIMENT--01-ALP-FOR-8086/assets/118787344/37802034-be66-49d8-b30d-e4b16dfbd422)
+### XOR:
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+XOR AL,BL;
+HLT
+ret
+```
+### OUTPUT:
+![image](https://github.com/Subhikshaa13/EXPERIMENT--01-ALP-FOR-8086/assets/118787344/1280045c-f351-4df6-8308-5e495d122528)
 
 ## Result :
  Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
